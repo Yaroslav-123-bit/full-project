@@ -1,0 +1,42 @@
+/* Використання групування */
+h1,
+p,
+div {
+  color: blueviolet;
+  background-color: rgba(71, 71, 172, 0.393);
+}
+/* Послідовнійсть селекторів */
+.variant {
+  color: #fff;
+}
+span ~ p {
+  color: brown;
+}
+/* Послідовність селекторів */
+.variant1 {
+  color: #fff;
+}
+h2 + p {
+  color: red;
+}
+h2 + p + p {
+  background-color: blanchedalmond;
+}
+p + h2 {
+  color: yellow;
+  font-size: 16px;
+}
+/* універсальний селектор * */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* значення атрибутів */
+a [href*="page"] {
+  color: blue;
+}
+a[href*="https://www.color-hex.com/color/727272"]
+{
+  color: yellow;
+}

@@ -1,0 +1,35 @@
+/* селектор */
+div > p {
+  color: red;
+}
+h1 {
+  color: green;
+}
+/* використання айді */
+#main {
+  color: purple;
+}
+/* використання атрибутів */
+input[type="text"] {
+  color: aquamarine;
+}
+/* застосування вкладений селектор */
+div p {
+  color: blue;
+}
+/* дочірній селектор */
+section > p {
+  color: brown;
+}
+/* послідовні селектори */
+p.note {
+  color: palevioletred;
+}
+/* комбінація айді і класу і тегу для великих проєктів буде комфортно */
+a[href] {
+  color: black;
+}
+/* глибока вкладеність */
+div section p {
+  color: burlywood;
+}
