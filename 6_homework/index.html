@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="6_homework/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- colspan- це ширина
+         rowspan- це висота    -->
+    <table style="border-collapse: collapse; width: 600px; height: 600px">
+      <tr>
+        <td style="border: 8px solid black"></td>
+        <td style="border: 8px solid black" colspan="2"></td>
+        <td style="border: px solid black; background: red"></td>
+        <td style="border: 8px solid black"></td>
+      </tr>
+      <tr>
+        <td style="border: 8px solid black" rowspan="2"></td>
+        <!-- 2 розтягує на дві колонки
+            1 це вихидить як маленький білий блок
+            3 це виходить один великий блок -->
+        <td
+          style="border: 8px solid black; background: purple"
+          colspan="2"
+          rowspan="3"
+        ></td>
+        <td style="border: 8px solid black; background: green" rowspan="2"></td>
+        <td style="border: 8px solid black"></td>
+      </tr>
+      <tr>
+        <td style="border: 8px solid black"></td>
+      </tr>
+      <tr>
+        <td style="border: 10px solid black; background: burlywood"></td>
+        <td style="border: 8px solid black; background: yellow"></td>
+        <td style="border: 8px solid black"></td>
+      </tr>
+      <tr>
+        <td style="border: 8px solid black; background: pink"></td>
+        <td style="border: 8px solid black; background: blue" rowspan="2"></td>
+        <td style="border: 8px solid black; background: red"></td>
+        <td style="border: 8px solid black; background: green"></td>
+        <td style="border: 8px solid black; background: brown"></td>
+      </tr>
+      <tr>
+        <td style="border: 8px solid black; background: orange"></td>
+        <td style="border: 8px solid black" colspan="2"></td>
+        <td style="border: 8px solid black"></td>
+      </tr>
+    </table>
+  </body>
+</html>
