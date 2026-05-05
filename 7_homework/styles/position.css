@@ -1,0 +1,14 @@
+.pos {
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+.parent {
+  position: ralative;
+  height: 100px;
+}
+.child {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
